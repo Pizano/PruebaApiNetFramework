@@ -97,3 +97,6 @@ C:\Users\cepizano\source\repos\PruebaApiNetFramework\PruebaNetFramework\PruebaNe
 C:\Users\cepizano\source\repos\PruebaApiNetFramework\PruebaNetFramework\PruebaNetFramework\obj\Debug\PruebaNetFramework.CatalogosDbContext.Initial.resources
 C:\Users\cepizano\source\repos\PruebaApiNetFramework\PruebaNetFramework\PruebaNetFramework\obj\Debug\PruebaNetFramework.csproj.GenerateResource.cache
 C:\Users\cepizano\source\repos\PruebaApiNetFramework\PruebaNetFramework\PruebaNetFramework\obj\Debug\PruebaNetFramework.InventarioDbContext.Initial.resources
+C:\Users\cepizano\source\repos\PruebaApiNetFramework\PruebaNetFramework\PruebaNetFramework\bin\System.Web.Cors.dll
+C:\Users\cepizano\source\repos\PruebaApiNetFramework\PruebaNetFramework\PruebaNetFramework\bin\System.Web.Http.Cors.dll
+C:\Users\cepizano\source\repos\PruebaApiNetFramework\PruebaNetFramework\PruebaNetFramework\bin\System.Web.Http.Cors.xml

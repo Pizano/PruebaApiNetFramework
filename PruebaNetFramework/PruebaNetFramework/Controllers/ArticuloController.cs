@@ -8,9 +8,11 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace PruebaNetFramework.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class ArticuloController : ApiController
     {
 
@@ -19,7 +21,7 @@ namespace PruebaNetFramework.Controllers
         [HttpGet]
         // GET api/<controller>
         public async Task<IHttpActionResult> GetAll()
-        {
+       {
             List<Articulo> personaEntity = await _inventarioContext.Articulo.ToListAsync();
             List<ArticuloViewModel> personaViewModels = personaEntity.ConvertAll(x => new ArticuloViewModel(x));
             return Ok(personaViewModels); 
@@ -51,7 +53,7 @@ namespace PruebaNetFramework.Controllers
         }
 
         // POST api/<controller>
-        public async Task<IHttpActionResult> Post([FromBody]ArticuloViewModel model)
+        public async Task<IHttpActionResult> Post(ArticuloViewModel model)
         {
             Articulo ArticuloEntity = new Articulo();
             try

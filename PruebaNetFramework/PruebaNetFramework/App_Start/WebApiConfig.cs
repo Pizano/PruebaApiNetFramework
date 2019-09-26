@@ -13,6 +13,7 @@ namespace PruebaNetFramework
 
             // Rutas de API web
             config.MapHttpAttributeRoutes();
+            config.EnableCors();
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
